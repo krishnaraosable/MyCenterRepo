@@ -1,3 +1,4 @@
 module myproj {
+	requires jxl;
 }
 
