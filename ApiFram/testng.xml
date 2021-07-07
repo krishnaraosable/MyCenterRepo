@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+  <test name="Test">
+    <classes>
+		<class name="org.testing.TestCase.TC1_PostRequest"/>
+      	<class name="org.testing.TestCase.TC2_GetRequest"/>
+      	<class name="org.testing.TestCase.TC3_PutRequest"/>
+      	<class name="org.testing.TestCase.TC4_DeleteRequest"/>
+      	<class name="org.testing.TestCase.TC5_GetAllRequest"/>
+      	<class name="org.testing.TestCase.TC6_PostReqRes"/>
+      	<class name="org.testing.TestCase.TC7_GetReqRes"/>
+      	<class name="org.testing.TestCase.TC8_GetAllReqRes"/>
+      	<class name="org.testing.TestCase.TC9_UpdateReqRes"/>
+      	<class name="org.testing.TestCase.TC10_DeleteReqRes"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
